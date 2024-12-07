@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 11, 47);
+}
+.input-box{
+    width: 25%;
+    height: 50px;
+    border: 2px solid rgb(224, 224, 224);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pswrd{
+    width: 40%;
+    height:30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+img{
+    width: 30px;
+    height: 20px;
+}
